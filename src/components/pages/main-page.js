@@ -5,3 +5,5 @@ const MainPage = ( ) =>{
         <div>Its Mane Page</div>
     )
 }
+
+export default MainPage;
