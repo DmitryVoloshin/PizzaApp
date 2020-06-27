@@ -31,7 +31,8 @@ function App() {
             <Route path="/about" component={AboutPage}/>
             <Route path="/contact" component={ContactPage}/>
             <Route path="/constructor" component={PizzaPage}/>
-
+           
+      
         <Footer/>
         </Router>
     </div>

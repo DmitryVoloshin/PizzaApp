@@ -2,11 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './main-page.css'
+import ShortBlock from '../reused-blocks/short-info';
 
 
 const MainPage = ( ) =>{
     return (
-        <main className="main-page_block">
+        <main>
+                <div className="main-page_block">
+
+            {/* This block of code just for time,in future i rechange it to carousel and put it in new component  */}
+
                 <div className="circle-pizza_pice"></div>
                 <div className="right-block_pizza">
                 <h2 className="right-block_title">Italian Pizza</h2>
@@ -17,7 +22,7 @@ const MainPage = ( ) =>{
                 with the necessary regelialia
                 </p>
                 <div className="pizza-block_buttons">
-                <Link to="/constructor" className="pizza-constructor_block">
+                <Link to="/menu" className="pizza-constructor_block">
                     <button className="pizza-constructor_button view-menu_button">View Menu</button>
                 </Link>
                 <Link to="/constructor" className="pizza-constructor_block">
@@ -25,6 +30,13 @@ const MainPage = ( ) =>{
                 </Link>
                 </div>
                 </div>
+
+                {/* Another blocks */}
+
+        </div>
+
+
+        <ShortBlock/>
         </main>
     )
 }

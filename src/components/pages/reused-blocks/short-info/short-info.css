@@ -1,0 +1,15 @@
+.short-info_block{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.left-info_block{
+    background-color: black;
+    color: white;
+    width: 65%;
+}
+.right-info_block{
+    background-color: rgb(248, 179, 89);
+    width: 35%;
+}
