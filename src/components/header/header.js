@@ -11,23 +11,23 @@ const Header = ( ) =>{
                 Logo
             </div>
             <ul className="header-block_nav">
-                <li>
-                    <Link to="/">Home</Link>
+                <li className="header-block_item">
+                    <Link to="/" className="header-link">Home</Link>
                 </li>
-                <li>
-                    <Link to="/menu">Menu</Link>
+                <li className="header-block_item">
+                    <Link to="/menu" className="header-link">Menu</Link>
                 </li>
-                <li>
-                    <Link to="/service">Service</Link>
+                <li className="header-block_item">
+                    <Link to="/service" className="header-link">Service</Link>
                 </li>
-                <li>
-                    <Link to="/blog">Blog</Link>
+                <li className="header-block_item">
+                    <Link to="/blog" className="header-link">Blog</Link>
                 </li>
-                <li>
-                    <Link to="/about">About</Link>
+                <li className="header-block_item">
+                    <Link to="/about" className="header-link">About</Link>
                 </li>
-                <li>
-                    <Link to="/contact">Contact</Link>
+                <li className="header-block_item">
+                    <Link to="/contact" className="header-link">Contact</Link>
                 </li>
             </ul>
         </header>
