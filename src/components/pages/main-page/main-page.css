@@ -23,3 +23,8 @@
     justify-content: center;
     padding-top: 200px;
 }
+.circle-pizza_pice{
+    background-image: url('../../../img/bg_pizza1.png');
+    width: 200px;
+    height: 200px;
+}

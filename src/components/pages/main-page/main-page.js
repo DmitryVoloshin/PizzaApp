@@ -7,7 +7,7 @@ import './main-page.css'
 const MainPage = ( ) =>{
     return (
         <main className="main-page_block">
-        
+                <img></img>
                 <Link to="/constructor" className="pizza-constructor_block">
                     <button className="pizza-constructor_button">I want my Pizza</button>
                 </Link>
