@@ -10,6 +10,8 @@
     border: 1px solid white;
     height: 60px;
     width: 135px;
+    margin-top: 40px;
+    margin-right: 10px;
     transition-duration: 500ms;
     transition-property: background-color;
 }
@@ -19,15 +21,48 @@
     color: black;
     border: 1px solid rgb(248, 179, 89);
 }
+.view-menu_button{
+    background-color: rgb(248, 179, 89);
+    border: none;
+    color: black;
+}
+.view-menu_button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(248, 179, 89);
+}
+
 .pizza-constructor_block{
     display: flex;
     justify-content: center;
-    padding-top: 200px;
+    /* padding-top: 200px; */
 }
 .circle-pizza_pice{
     background-image: url('../../../img/bg_pizza1.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 500px;
+    width: 510px;
     height: 500px;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+.right-block_pizza{
+    display: flex;
+    flex-direction: column ;
+    padding-top: 325px;
+    padding-left: 35px;
+}
+.right-block_title{
+    color: white;
+    font-size: 55px;
+    padding-bottom: 25px;
+}
+.right-block_about{
+    width: 650px;
+    color: white;
+    font-size: 22px;
+}
+
+.pizza-block_buttons{
+    display: flex;
+    flex-direction: row;
 }
