@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import './main-page.css'
+
 
 const MainPage = ( ) =>{
     return (
-        <div>
-                <Link to="/constructor">I want my pizza</Link>
-        </div>
+        <main className="main-page_block">
+        
+                <Link to="/constructor"><button>I want my Pizza</button></Link>
+             
+        </main>
     )
 }
 
