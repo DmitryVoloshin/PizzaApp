@@ -14,9 +14,10 @@ import { AboutPage,
         MenuPage,
         MainPage,
       } from './pages';
+import PizzaPage from './pizza-creator';
 
 
-      
+
 function App() {
   return (
     <div className="Main">
@@ -29,6 +30,7 @@ function App() {
             <Route path="/blog" component={BlogPage}/>
             <Route path="/about" component={AboutPage}/>
             <Route path="/contact" component={ContactPage}/>
+            <Route path="/constructor" component={PizzaPage}/>
 
         <Footer/>
         </Router>

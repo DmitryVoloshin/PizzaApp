@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const MainPage = ( ) =>{
     return (
-        <div>Its Mane Page
+        <div>
+                <Link to="/constructor">I want my pizza</Link>
         </div>
     )
 }
