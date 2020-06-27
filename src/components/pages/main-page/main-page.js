@@ -8,7 +8,7 @@ const MainPage = ( ) =>{
     return (
         <main className="main-page_block">
         
-                <Link to="/constructor">
+                <Link to="/constructor" className="pizza-constructor_block">
                     <button className="pizza-constructor_button">I want my Pizza</button>
                 </Link>
              
