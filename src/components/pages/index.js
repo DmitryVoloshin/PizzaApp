@@ -1,4 +1,4 @@
-import MainPage from './main-page';
+import MainPage from './main-page/main-page';
 import MenuPage from './menu-page';
 import ServicePage from './service-page';
 import BlogPage from './blog-page';
