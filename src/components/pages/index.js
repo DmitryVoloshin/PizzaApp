@@ -1,4 +1,8 @@
 import MainPage from './main-page';
 import MenuPage from './menu-page';
+import ServicePage from './service-page';
+import BlogPage from './blog-page';
+import AboutPage from './about-page';
+import ContactPage from './contact-page'
 
-export default { MainPage,MenuPage }
+export { MainPage,MenuPage,ServicePage,BlogPage,AboutPage,ContactPage }

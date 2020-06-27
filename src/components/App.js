@@ -6,9 +6,17 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Header from './header';
 import Footer from './footer';
-import MainPage from './pages/main-page';
-import MenuPage from './pages/menu-page';
 
+import { AboutPage, 
+        ContactPage,
+        BlogPage,
+        ServicePage,
+        MenuPage,
+        MainPage,
+      } from './pages';
+
+
+      
 function App() {
   return (
     <div className="Main">
@@ -17,7 +25,10 @@ function App() {
 
             <Route path="/" component={MainPage} exact/>
             <Route path="/menu" component={MenuPage} />
-            
+            <Route path="/service" component={ServicePage}/>
+            <Route path="/blog" component={BlogPage}/>
+            <Route path="/about" component={AboutPage}/>
+            <Route path="/contact" component={ContactPage}/>
 
         <Footer/>
         </Router>
