@@ -1,0 +1,9 @@
+.main-page_welcome{
+    display: flex;
+    flex-direction: row;
+    height: 425px;
+}
+.welcome-right_block{
+    width: 50%;
+    background-color: rgb(150, 94, 94);
+}

@@ -22,8 +22,20 @@ const ShortBlock = ( ) =>{
 
 
             {/* right part */}
-            <div className="right-info_block">right</div>
-        </div>
+    
+                <ul className="right-info_block">
+                    <li className="right-info_icon">
+                        icon_1
+                    </li>
+                    <li className="right-info_icon">
+                        icon_2
+                    </li>
+                    <li className="right-info_icon">
+                        icon_3
+                    </li>
+                </ul>
+            </div>
+     
     )
 }
 
