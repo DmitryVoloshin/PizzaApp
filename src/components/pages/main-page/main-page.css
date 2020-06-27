@@ -1,6 +1,7 @@
 .main-page_block{
     height: 770px;
     background-image: url('./../../../img/bg_1.jpg');
+    display: flex;
 }
 .pizza-constructor_button{
     color: white;
@@ -25,6 +26,8 @@
 }
 .circle-pizza_pice{
     background-image: url('../../../img/bg_pizza1.png');
-    width: 200px;
-    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
 }
