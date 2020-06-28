@@ -22,7 +22,13 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    text-decoration: none;
+	text-decoration: none;
+	transform-style: preserve-3d;
+}
+body{
+	overflow: hidden;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

@@ -8,6 +8,13 @@
     background-color: rgb(150, 94, 94);
 }
 .welcome-right_block{
+    box-sizing: border-box;
+    transform-style: inherit;
     width: 50%;
     background-image: url('./../../../../img/paralax-bg.jpg');
+}
+.welcome-right_block::before{
+    content: '';
+    display: block;
+    position: absolute;
 }
