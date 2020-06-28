@@ -1,4 +1,33 @@
 .footer-block{
     height: 500px;
     background-color:#101315;
+    color: white;
+}
+.footer-item_title{
+    padding-bottom: 15px;
+}
+.footer-items_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 125px;
+}
+.footer-block_item{
+    width: 20%;
+    line-height: 22px;
+}
+.blog-item_first{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.footer-blog_image{
+    width: 100px;
+    height: 100px;
+}
+.blog-item_block{
+  display: flex;
+  padding-bottom: 15px;
 }
