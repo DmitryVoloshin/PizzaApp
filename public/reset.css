@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
     vertical-align: baseline;
 	text-decoration: none;
-	transform-style: preserve-3d;
+	/* transform-style: preserve-3d; */
 }
 body{
 	overflow: hidden;

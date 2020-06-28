@@ -6,7 +6,9 @@ const WelocomeBlock = ( ) =>{
     return(
         <div className="main-page_welcome">
             <div className="welcome-left_block">
-                1
+                <ul>
+                    <li className="icon"></li>
+                </ul>
             </div>
             <div className="welcome-right_block">
                 <h2 className="welcome-right_title">Welcome</h2>

@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './footer.css'
+
 const Footer = ( ) =>{
     return(
-        <div>TIS FOOTER TIME</div>
+        <div className="footer-block">TIS FOOTER TIME</div>
     )
 }
 
