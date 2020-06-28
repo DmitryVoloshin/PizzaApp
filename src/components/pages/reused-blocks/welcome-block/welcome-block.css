@@ -15,6 +15,23 @@
     background-image: url('./../.././../../img/paralax-bg.jpg');
    
 }
+.welcome-right_title{
+    padding-left: 45px;
+    padding-top: 45px;
+    font-size: 33px;
+}
+.welcome-right_text{
+    padding-left: 45px;
+    padding-top: 45px;
+    padding-right: 250px;
+}
+.right-title_word{
+    color: rgb(248, 179, 89);
+}
+.right-title_pizza{
+    width: 30px;
+    height: 30px;
+}
 /* .welcome-right_block::before{
     content: '';
     display: block;
@@ -34,16 +51,3 @@
     /* transform: translateZ(-1px) scale(1);
 } */
 
-.icon::before{
-    content: "\f000";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    color: #000;
-    font-size: 18px;
-    padding-right: 0.5em;
-    position: absolute;
-    top: 10px;
-    left: 0;
-}

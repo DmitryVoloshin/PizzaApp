@@ -1,17 +1,18 @@
 import React from 'react';
 
-import './welcome-block.css'
+import './welcome-block.css';
+
+import pizza from './../../../../img/icons/pizza.png';
+import tables from './../../../../img/tables.png'
 
 const WelocomeBlock = ( ) =>{
     return(
         <div className="main-page_welcome">
             <div className="welcome-left_block">
-                <ul>
-                    <li className="icon"></li>
-                </ul>
+                <img src={tables}/>
             </div>
             <div className="welcome-right_block">
-                <h2 className="welcome-right_title">Welcome</h2>
+                <h2 className="welcome-right_title"> WELCOME TO <span className="right-title_word"> <img src={pizza} className="right-title_pizza"/>PIZZA </span> A RESTAURANT</h2>
                 <p className="welcome-right_text">
                     On her way she met a copy. 
                 The copy warned the Little Blind Text, that where it came from 
