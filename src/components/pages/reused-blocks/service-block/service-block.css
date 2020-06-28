@@ -22,7 +22,14 @@
     padding-right: 250px;
 }
 .service-item_image{
-    border: 1px solid black;
+    border: 1px solid #bf7e06;
     height: 125px;
     width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-image{
+    height: 100px;
+    width: 100px;
 }

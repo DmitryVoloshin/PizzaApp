@@ -2,6 +2,9 @@ import React from 'react';
 
 import './service-block.css'
 
+import vegetable from './../../../../img/icons/service-icons/vegetable.png';
+import delivery from './../../../../img/icons/service-icons/delivery.png';
+
 const ServiceBlock = ( ) =>{
     return(
         <div className="service-block">
@@ -13,7 +16,7 @@ const ServiceBlock = ( ) =>{
             <ul className="service-items_block">
                 <li className="service-item">
                     <div className="service-item_image">
-                        1
+                       <img src={vegetable} className="item-image"/>
                     </div>
                     <h2 className="service-item_title"></h2>
                     <p className="service-item_text">
@@ -22,7 +25,7 @@ const ServiceBlock = ( ) =>{
                 </li>
                 <li className="service-item">
                     <div className="service-item_image">
-                        2
+                        <img src={delivery} className="item-image"/>
                     </div>
                     <h2 className="service-item_title"></h2>
                     <p className="service-item_text">
