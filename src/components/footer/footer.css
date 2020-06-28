@@ -31,3 +31,10 @@
   display: flex;
   padding-bottom: 15px;
 }
+.blog-width{
+    width: 400px;
+}
+.blog-item_text{
+    display: flex;
+    padding-top: 35px;
+}
