@@ -1,6 +1,6 @@
 .service-block{
     background-image: url('./../../../../img/foodbg.png');
-    height: 800px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,14 +12,19 @@
 .service-block_text{
     font-size: 17px;
     padding-top: 35px;
+    color: #5c3d03;
 }
 .service-items_block{
     padding-top: 175px;
     display: flex;
 }
 .service-item{
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 155px;
+    padding-right: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .service-item_image{
     border: 1px solid #bf7e06;
@@ -28,8 +33,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .item-image{
     height: 100px;
     width: 100px;
+
+}
+.service-item_title{
+    padding-top: 25px;
+    font-size: 25px;
+}
+.service-item_text{
+   padding-top: 10px;
+   text-align: center;
 }
