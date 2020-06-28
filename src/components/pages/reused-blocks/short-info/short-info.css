@@ -26,4 +26,12 @@
     padding-left: 25px;
 }
 
-
+.short-icon{
+    width: 20px;
+    height: 20px;
+}
+.left-items_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
