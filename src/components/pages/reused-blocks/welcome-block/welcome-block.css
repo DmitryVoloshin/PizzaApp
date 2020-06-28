@@ -3,7 +3,11 @@
     flex-direction: row;
     height: 425px;
 }
-.welcome-right_block{
+.welcome-left_block{
     width: 50%;
     background-color: rgb(150, 94, 94);
+}
+.welcome-right_block{
+    width: 50%;
+    background-image: url('./../../../../img/paralax-bg.jpg');
 }
