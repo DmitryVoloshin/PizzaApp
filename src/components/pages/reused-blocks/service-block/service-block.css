@@ -11,8 +11,18 @@
 }
 .service-block_text{
     font-size: 17px;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 .service-items_block{
-    
+    padding-top: 175px;
+    display: flex;
+}
+.service-item{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.service-item_image{
+    border: 1px solid black;
+    height: 125px;
+    width: 125px;
 }
