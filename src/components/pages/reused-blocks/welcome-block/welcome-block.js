@@ -3,13 +3,14 @@ import React from 'react';
 import './welcome-block.css';
 
 import pizza from './../../../../img/icons/pizza.png';
-import tables from './../../../../img/tables.png'
+import tables from './../../../../img/tables.jpg'
+
 
 const WelocomeBlock = ( ) =>{
     return(
         <div className="main-page_welcome">
             <div className="welcome-left_block">
-                <img src={tables}/>
+               {/* <img src={tables} className="left-blcok_image"/> */}
             </div>
             <div className="welcome-right_block">
                 <h2 className="welcome-right_title"> WELCOME TO <span className="right-title_word"> <img src={pizza} className="right-title_pizza"/>PIZZA </span> A RESTAURANT</h2>

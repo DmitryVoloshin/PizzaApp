@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './main-page.css'
 import ShortBlock from '../reused-blocks/short-info';
 import WelocomeBlock from '../reused-blocks/welcome-block';
+import ServiceBlock from '../reused-blocks/service-block';
 
 
 const MainPage = ( ) =>{
@@ -39,6 +40,7 @@ const MainPage = ( ) =>{
 
         <ShortBlock/>
         <WelocomeBlock/>
+        <ServiceBlock/>
         </main>
     )
 }

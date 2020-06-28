@@ -1,12 +1,13 @@
 .main-page_welcome{
     display: flex;
     flex-direction: row;
-    height: 425px;
+    height: 500px;
     color: white;
 }
 .welcome-left_block{
     width: 50%;
-    background-color: rgb(150, 94, 94);
+    background-image: url('./../../../../img/tables.jpg');
+    background-size: cover;
 }
 .welcome-right_block{
     box-sizing: border-box;
@@ -24,6 +25,7 @@
     padding-left: 45px;
     padding-top: 45px;
     padding-right: 250px;
+    color: rgb(173, 173, 173);
 }
 .right-title_word{
     color: rgb(248, 179, 89);
@@ -32,22 +34,3 @@
     width: 30px;
     height: 30px;
 }
-/* .welcome-right_block::before{
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top:0;
-    bottom: 0;
-    z-index: -1;
-    transform-origin: center;
-    min-height: 100vh;
-    background-image: url('./../../../../img/paralax-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /* Paralax */
-    /* transform: translateZ(-1px) scale(1);
-} */
-
