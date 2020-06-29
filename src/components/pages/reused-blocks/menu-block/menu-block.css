@@ -24,6 +24,36 @@
     display: flex;
     justify-content: center;
 }
+.flip-block_deg{
+    height: 6px;
+    width: 6px;
+    background-color: #fac564;
+    border: 1px solid #fac564;
+    margin-right: 6px;
+    margin-left: 6px;
+    transform: rotate(45deg);
+}
+.big-block_deg{
+    height: 14px;
+    width: 14px;
+}
+.pricing-block_title{
+    padding-bottom: 25px;
+}
+.pricing-block_flip{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.block-flip_strip{
+    border-top: 1px solid #bf7e06;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
  /* просто помойный костыль на время */
  .plug-for_time{
      padding-top: 135px;

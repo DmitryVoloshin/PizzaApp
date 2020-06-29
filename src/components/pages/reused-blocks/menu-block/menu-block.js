@@ -21,7 +21,14 @@ const MenuBlock = ( ) =>{
            </div>
            <div className="menu-block_pricing">
                 <h2 className="pricing-block_title">Our Menu pricing</h2>
-                <div className="pricing-block_image"></div>
+                <div className="pricing-block_flip">
+                    {/* Its so bad practic!!!!! */}
+                    <span className="block-flip_strip"></span>
+                    <span className="flip-block_deg"></span>
+                    <span className="flip-block_deg big-block_deg"></span>
+                    <span className="flip-block_deg"></span>
+                    <span className="block-flip_strip"></span>
+                </div>
                 <p className="pricing-blcok_text">
                 Far far away, behind the word mountains, 
                 far from the countries Vokalia and Consonantia, 
