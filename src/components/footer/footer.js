@@ -7,8 +7,10 @@ import image1 from './../../img/footerimg/image1.jpg';
 import image2 from './../../img/footerimg/image2.jpg';
 // Blog icons
 import calendar from './../../img/icons/footer-icons/calendar.png';
-import user from './../../img/icons/footer-icons/user.png'
-import message from './../../img/icons/footer-icons/message.png'
+import user from './../../img/icons/footer-icons/user.png';
+import message from './../../img/icons/footer-icons/message.png';
+//Question Icons
+import pin from './../../img/icons/footer-icons/pin.png'
 
 
 const Footer = ( ) =>{
@@ -80,7 +82,7 @@ const Footer = ( ) =>{
                         <h2 className="footer-item_title">HAVE A QUESTIONS?</h2>
                             <ul className="footer-question_list">
                                 <li className="question-list_item">
-                                    <img className="question-list_image"/>
+                                    <img src={pin} className="question-list_image"/>
                                     <p className="question-list_text">
                                     203 Fake St. Mountain View, San Francisco, 
                                     California, USA    
