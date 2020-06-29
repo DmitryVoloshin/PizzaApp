@@ -17,6 +17,8 @@ import mail from './../../img/icons/footer-icons/mail.png';
 import twitter from './../../img/icons/footer-icons/footer-socials-icons/twitter.png';
 import facebook from './../../img/icons/footer-icons/footer-socials-icons/facebook.png';
 import instagram from './../../img/icons/footer-icons/footer-socials-icons/instagram.png';
+//Heart icon for copyright
+import heart from './../../img/icons/footer-icons/footer-socials-icons/heart.png';
 
 
 const Footer = ( ) =>{
@@ -117,9 +119,13 @@ const Footer = ( ) =>{
 
                 </ul>
             </div>
-            <div>
-
+            <div className="footer-copyright_block">
+                <h3 className="footer-copyright_text">
+                Copyright ©2020 All rights reserved | This template is made with   
+                <img src={heart} className="footer-heart_icon"/> by <a>Colorlib</a>
+                </h3>
             </div>
+                
         </footer>
     )
 }

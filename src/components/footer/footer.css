@@ -86,3 +86,14 @@
 .footer-social_item{
     padding-right: 10px;
 }
+.footer-copyright_block{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer-heart_icon{
+    width: 12px;
+    height: 12px;
+    padding-left: 3px;
+}
