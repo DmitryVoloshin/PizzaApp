@@ -1,5 +1,32 @@
 .menu-block{
-    height: 1100px;
+    height: 1600px;
     background-image: url('./../../../../img/paralax-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
+.menu-block_title{
+    font-family: 'Josefin Sans',Arial,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 85px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.menu-block_text{
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-top: 65px;
+    color:gray;
+    display: flex;
+    justify-content: center;
+}
+ /* просто помойный костыль на время */
+ .plug-for_time{
+     padding-top: 135px;
+     width: 100%;
+ }
+  /* просто помойный костыль на время */

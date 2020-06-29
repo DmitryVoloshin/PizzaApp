@@ -1,20 +1,21 @@
 .header-block{
-    height: 55px;
+    height: 75px;
     width: 100%;
-    font-size: 27px;
+    font-size: 19px;
     display: flex;
     flex-direction: row;
     text-decoration: none;
     padding-left: 20%;
-    padding-top: 20px;
     background-color: rgb(5, 5, 5);
     color: rgb(248, 179, 89);
+    align-items: center;
 }
 .header-block_nav{
     list-style: none;
     text-decoration: none;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding-left: 25%;
 }
 .header-block_item{
