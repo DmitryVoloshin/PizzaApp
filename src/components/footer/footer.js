@@ -10,7 +10,11 @@ import calendar from './../../img/icons/footer-icons/calendar.png';
 import user from './../../img/icons/footer-icons/user.png';
 import message from './../../img/icons/footer-icons/message.png';
 //Question Icons
-import pin from './../../img/icons/footer-icons/pin.png'
+import pin from './../../img/icons/footer-icons/pin.png';
+import phone from './../../img/icons/footer-icons/phone.png';
+import mail from './../../img/icons/footer-icons/mail.png';
+//Socials icons
+import twitter from './../../img/icons/footer-icons/footer-socials-icons/twitter.png'
 
 
 const Footer = ( ) =>{
@@ -20,9 +24,14 @@ const Footer = ( ) =>{
                 <ul className="footer-items_list">
                     <li className="footer-block_item">
                         <h2 className="footer-item_title">ABOUT US</h2>
-                        <p>Far far away, behind the word mountains, 
+                        <p className="footer-about_block">Far far away, behind the word mountains, 
                             far from the countries Vokalia and Consonantia, 
                             there live the blind texts.</p>
+                                <ul className="footer-social_icons">
+                                    <li className=""><a href="#"><img src={twitter} className="footer-social_item"/></a></li>
+                                    <li><a href="#"><img src={twitter} className="footer-social_item"/></a></li>
+                                    <li><a href="#"><img src={twitter} className="footer-social_item"/></a></li>
+                                </ul>
                     </li>
                     <li className="footer-block_item blog-width">
                         <h2 className="footer-item_title">RECENT BLOG</h2>
@@ -89,19 +98,19 @@ const Footer = ( ) =>{
                                     </p>
                                 </li>
                                 <li className="question-list_item">
-                                    <img className="question-list_image"/>
+                                    <img src={phone} className="question-list_image"/>
                                     <p className="question-list_text">
                                     +2 392 3929 210
                                     </p>
                                 </li>  
                                 <li className="question-list_item">
-                                    <img className="question-list_image"/>
+                                    <img src={mail} className="question-list_image"/>
                                     <p className="question-list_text">
                                     info@yourdomain.com 
                                     </p>
                                 </li>     
                             </ul>
-                    </li>
+                    </li>         
                 </ul>
             </div>
             <div>
