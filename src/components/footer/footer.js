@@ -2,8 +2,14 @@ import React from 'react';
 
 import './footer.css'
 
-import image1 from './../../img/footerimg/image1.jpg'
-import image2 from './../../img/footerimg/image2.jpg'
+// Blog image
+import image1 from './../../img/footerimg/image1.jpg';
+import image2 from './../../img/footerimg/image2.jpg';
+// Blog icons
+import calendar from './../../img/icons/footer-icons/calendar.png';
+import user from './../../img/icons/footer-icons/user.png'
+import message from './../../img/icons/footer-icons/message.png'
+
 
 const Footer = ( ) =>{
     return(
@@ -24,9 +30,18 @@ const Footer = ( ) =>{
                                 <div className="blog-item_first">
                                     <a>Even the all-powerful Pointing has no control about</a>
                                     <span className="blog-item_text">
-                                        <p>2</p>
-                                        <p>3</p>
-                                        <p>4</p>
+                                        <span className="blog-item_under">
+                                            <img src={calendar} className="blog-item_icon"/>
+                                            <p>Sept 15, 2018</p>
+                                        </span>
+                                        <span className="blog-item_under">
+                                            <img src={user} className="blog-item_icon"/>
+                                            <p>Admin</p>
+                                        </span>
+                                        <span className="blog-item_under">
+                                            <img src={message} className="blog-item_icon"/>
+                                            <p>19</p>
+                                        </span>
                                     </span>
                                 </div>
                             </div>
@@ -34,7 +49,20 @@ const Footer = ( ) =>{
                                 <img src={image2} className="footer-blog_image"/>
                                 <div className="blog-item_first">
                                     <a>Even the all-powerful Pointing has no control about</a>
-                                    <span>1</span>
+                                    <span className="blog-item_text">
+                                        <span className="blog-item_under">
+                                            <img src={calendar} className="blog-item_icon"/>
+                                            <p>Sept 15, 2018</p>
+                                        </span>
+                                        <span className="blog-item_under">
+                                            <img src={user} className="blog-item_icon"/>
+                                            <p>Admin</p>
+                                        </span>
+                                        <span className="blog-item_under">
+                                            <img src={message} className="blog-item_icon"/>
+                                            <p>19</p>
+                                        </span>
+                                    </span>
                                 </div>
                             </div>
                         </div>

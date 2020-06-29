@@ -1,10 +1,10 @@
 .footer-block{
-    height: 500px;
+    height: 600px;
     background-color:#101315;
     color: white;
 }
 .footer-item_title{
-    padding-bottom: 15px;
+    padding-bottom: 35px;
 }
 .footer-items_list{
     display: flex;
@@ -37,4 +37,14 @@
 .blog-item_text{
     display: flex;
     padding-top: 35px;
+}
+.blog-item_icon{
+    height: 16px;
+    width: 16px;
+    padding-right: 5px;
+}
+.blog-item_under{
+    display: flex;
+    font-size: 10px;
+    padding-left: 7px;
 }
