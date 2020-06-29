@@ -14,7 +14,9 @@ import pin from './../../img/icons/footer-icons/pin.png';
 import phone from './../../img/icons/footer-icons/phone.png';
 import mail from './../../img/icons/footer-icons/mail.png';
 //Socials icons
-import twitter from './../../img/icons/footer-icons/footer-socials-icons/twitter.png'
+import twitter from './../../img/icons/footer-icons/footer-socials-icons/twitter.png';
+import facebook from './../../img/icons/footer-icons/footer-socials-icons/facebook.png';
+import instagram from './../../img/icons/footer-icons/footer-socials-icons/insagram.png';
 
 
 const Footer = ( ) =>{
@@ -27,10 +29,10 @@ const Footer = ( ) =>{
                         <p className="footer-about_block">Far far away, behind the word mountains, 
                             far from the countries Vokalia and Consonantia, 
                             there live the blind texts.</p>
-                                <ul className="footer-social_icons">
-                                    <li className=""><a href="#"><img src={twitter} className="footer-social_item"/></a></li>
-                                    <li><a href="#"><img src={twitter} className="footer-social_item"/></a></li>
-                                    <li><a href="#"><img src={twitter} className="footer-social_item"/></a></li>
+                                <ul className="footer-social_block">
+                                    <li className="footer-social_item"><a href="#"><img src={twitter} className="footer-social_icon"/></a></li>
+                                    <li className="footer-social_item"><a href="#"><img src={facebook} className="footer-social_icon"/></a></li>
+                                    <li className="footer-social_item"><a href="#"><img src={instagram} className="footer-social_icon"/></a></li>
                                 </ul>
                     </li>
                     <li className="footer-block_item blog-width">
@@ -88,6 +90,7 @@ const Footer = ( ) =>{
                         </div>
                     </li>
                     <li className="footer-block_item">
+
                         <h2 className="footer-item_title">HAVE A QUESTIONS?</h2>
                             <ul className="footer-question_list">
                                 <li className="question-list_item">
@@ -111,6 +114,7 @@ const Footer = ( ) =>{
                                 </li>     
                             </ul>
                     </li>         
+
                 </ul>
             </div>
             <div>

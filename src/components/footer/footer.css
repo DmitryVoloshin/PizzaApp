@@ -75,11 +75,14 @@
     padding-bottom: 18px;
     color: rgba(255, 255, 255, 0.7);
 }
-.footer-social_item{
+.footer-social_icon{
     width: 45px;
     height: 45px;
 }
-.footer-social_icons{
+.footer-social_block{
     display: flex;
     padding-top: 150px;
+}
+.footer-social_item{
+    padding-right: 10px;
 }
