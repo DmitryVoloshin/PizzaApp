@@ -16,7 +16,7 @@ import mail from './../../img/icons/footer-icons/mail.png';
 //Socials icons
 import twitter from './../../img/icons/footer-icons/footer-socials-icons/twitter.png';
 import facebook from './../../img/icons/footer-icons/footer-socials-icons/facebook.png';
-import instagram from './../../img/icons/footer-icons/footer-socials-icons/insagram.png';
+import instagram from './../../img/icons/footer-icons/footer-socials-icons/instagram.png';
 
 
 const Footer = ( ) =>{
