@@ -78,6 +78,27 @@ const Footer = ( ) =>{
                     </li>
                     <li className="footer-block_item">
                         <h2 className="footer-item_title">HAVE A QUESTIONS?</h2>
+                            <ul className="footer-question_list">
+                                <li className="question-list_item">
+                                    <img className="question-list_image"/>
+                                    <p className="question-list_text">
+                                    203 Fake St. Mountain View, San Francisco, 
+                                    California, USA    
+                                    </p>
+                                </li>
+                                <li className="question-list_item">
+                                    <img className="question-list_image"/>
+                                    <p className="question-list_text">
+                                    +2 392 3929 210
+                                    </p>
+                                </li>  
+                                <li className="question-list_item">
+                                    <img className="question-list_image"/>
+                                    <p className="question-list_text">
+                                    info@yourdomain.com 
+                                    </p>
+                                </li>     
+                            </ul>
                     </li>
                 </ul>
             </div>

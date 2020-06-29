@@ -59,3 +59,7 @@
 .footer-item_service a:hover{
     color: rgba(230, 230, 250, 0.692);
 }
+.question-list_item{
+    display: flex;
+    flex-direction: row;
+}
