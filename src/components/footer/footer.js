@@ -69,6 +69,12 @@ const Footer = ( ) =>{
                     </li>
                     <li className="footer-block_item">
                         <h2 className="footer-item_title">SERVICES</h2>
+                        <div className="footer-item_service">
+                            <a href="#">Cooked</a>
+                            <a href="#" className="footer-service_link">Deliver</a>
+                            <a href="#" className="footer-service_link">Quality Foods</a>
+                            <a href="#" className="footer-service_link">Mixed</a>
+                        </div>
                     </li>
                     <li className="footer-block_item">
                         <h2 className="footer-item_title">HAVE A QUESTIONS?</h2>

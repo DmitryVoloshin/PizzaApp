@@ -48,3 +48,14 @@
     font-size: 10px;
     padding-left: 7px;
 }
+.footer-item_service{
+    display: flex;
+    flex-direction: column;
+}
+.footer-service_link{
+    padding-top: 20px;
+}
+
+.footer-item_service a:hover{
+    color: rgba(230, 230, 250, 0.692);
+}
