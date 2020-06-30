@@ -4,7 +4,24 @@ import './count-block.css'
 
 const CountBlock = ( ) =>{
     return(
-        <div>Count</div>
+        <section className="count-block">
+            <div className="count-block_overlay">
+                <ul className="count-block_list">
+                    <li className="count-list_item">
+                        <img className="count-item_img"/>
+                    </li>
+                    <li className="count-list_item">
+                        <img className="count-item_img"/>
+                    </li>
+                    <li className="count-list_item">
+                        <img className="count-item_img"/>
+                    </li>
+                    <li className="count-list_item">
+                        <img className="count-item_img"/>
+                    </li>
+                </ul>
+            </div>
+        </section>
     )
 }
 

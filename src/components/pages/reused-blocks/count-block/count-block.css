@@ -1,0 +1,22 @@
+.count-block{
+    height: 500px;
+    background: url('./../../../../img/count-block/countbg.jpg') no-repeat #000;
+    background-size: cover;
+}
+.count-block_overlay{
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.count-block_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.count-list_item{
+    height: 85px;
+    width: 85px;
+    border: 1px solid #fac564;
+    margin-left: 4%;
+    margin-right: 4%;
+}
