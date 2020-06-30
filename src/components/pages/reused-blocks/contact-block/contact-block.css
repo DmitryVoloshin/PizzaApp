@@ -1,0 +1,52 @@
+.contact-block_section{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.contact-block_map{
+    width: 45%;
+    height: 550px;
+}
+.contact-block_form{
+    background-color: black;
+    width: 55%;
+    color: white;
+}
+.contact-block_form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 20px;
+    
+}
+.contact-form_item{
+    color: white;
+    background-color: inherit ;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.contact-form_button{
+    background-color: #fac564;
+    color: black;
+    margin-top: 25px ;
+    width: 175px;
+    height: 50px;
+    border: 1px solid #fac564;
+}
+.contact-form_button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.contact-form_title{
+    padding-bottom: 35px;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+}
+
+ /* frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" */
