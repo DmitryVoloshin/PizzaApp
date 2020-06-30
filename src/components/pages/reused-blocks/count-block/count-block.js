@@ -18,7 +18,7 @@ const CountBlock = ( ) =>{
                         </div>
                         
                         <h2 className="count-item_title">100</h2>
-                        <p className="count-item_text"></p>
+                        <p className="count-item_text">Pizza Branches</p>
                     </li>
                     <li className="count-list">
                         <div className="count-list_item">
@@ -26,7 +26,7 @@ const CountBlock = ( ) =>{
                         </div>
                         
                         <h2 className="count-item_title">85</h2>
-                        <p className="count-item_text"></p>
+                        <p className="count-item_text">Number of Awards</p>
                     </li>
                     <li className="count-list">
                         <div className="count-list_item">
@@ -34,7 +34,7 @@ const CountBlock = ( ) =>{
                         </div>
                        
                         <h2 className="count-item_title">10,567</h2>
-                        <p className="count-item_text"></p>
+                        <p className="count-item_text">Happy Customer</p>
                     </li>
                     <li className="count-list">
                         <div className="count-list_item"> 
@@ -42,7 +42,8 @@ const CountBlock = ( ) =>{
                         </div>
                        
                         <h2 className="count-item_title">900</h2>
-                        <p className="count-item_text"></p>
+                        <p className="count-item_text">Staff</p>
+                        
                     </li>
                 </ul>
             </div>
