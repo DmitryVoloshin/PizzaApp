@@ -1,0 +1,17 @@
+.short-header_nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    margin-left: 160px;
+}
+.short-header_link{
+    border: 1px solid green;
+    height: 50px;
+    width: 130px;
+    margin-left: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

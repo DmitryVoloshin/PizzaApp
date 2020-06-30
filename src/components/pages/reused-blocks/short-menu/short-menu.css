@@ -1,0 +1,14 @@
+.shortmenu-block_img{
+    height: 700px;
+    width: 38%;
+    background-image: url('./../../../../img/tables.jpg');
+    background-size: cover;
+    color:white
+}
+.shortmenu-block{
+    display: flex;
+}
+.short-menu_links{
+    background-color: black;
+    width: 62%;
+}
