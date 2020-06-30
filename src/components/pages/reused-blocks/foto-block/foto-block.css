@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition-duration: 400ms;
+    transition-duration: 300ms;
     transition-property: transform,background-color;
     /* visibility: hidden; */
 }
