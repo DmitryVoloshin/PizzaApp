@@ -14,10 +14,10 @@ const ShortHeader = () =>{
                     <Link to="/drinks">Drinks</Link>
                 </li>
                 <li className="short-header_link">
-                    <Link>Burgers</Link>
+                    <Link to="/burgers">Burgers</Link>
                 </li>
                 <li className="short-header_link">
-                    <Link>Pasta</Link>
+                    <Link to="/pasta">Pasta</Link>
                 </li>
             </ul>
         </div>

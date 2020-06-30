@@ -5,6 +5,8 @@ import './short-menu.css'
 import ShortHeader from './short-pages/short-header';
 import ShortDrink from './short-pages/short-drinks';
 import ShortPizza from './short-pages/short-pizza';
+import ShortBurger from './short-pages/short-burger';
+import ShortPasta from './short-pages/short-pasta';
 
 const ShortMenu = ( ) =>{
     return(
@@ -15,6 +17,8 @@ const ShortMenu = ( ) =>{
                     <ShortHeader/>
                         <Route path="/drinks" component={ShortDrink} exact/>
                         <Route path="/pizza" component={ShortPizza}/>
+                        <Route path="/burgers" component={ShortBurger}/>
+                        <Route path="/pasta" component={ShortPasta}/>
                 </Router>
             </div>
          
