@@ -6,6 +6,7 @@ import ShortBlock from '../reused-blocks/short-info';
 import WelocomeBlock from '../reused-blocks/welcome-block';
 import ServiceBlock from '../reused-blocks/service-block';
 import MenuBlock from '../reused-blocks/menu-block';
+import FotoBlock from '../reused-blocks/foto-block';
 
 
 const MainPage = ( ) =>{
@@ -43,6 +44,7 @@ const MainPage = ( ) =>{
         <WelocomeBlock/>
         <ServiceBlock/>
         <MenuBlock/>
+        <FotoBlock/>
         </main>
     )
 }

@@ -4,7 +4,9 @@ import './foto-block.css'
 
 const FotoBlock = ( ) =>{
     return(
-        <div>FotoBlock</div>
+        <section className="foto-block">
+            1
+        </section>
     )
 }
 
