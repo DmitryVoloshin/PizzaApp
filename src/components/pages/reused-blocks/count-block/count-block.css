@@ -2,6 +2,7 @@
     height: 500px;
     background: url('./../../../../img/count-block/countbg.jpg') no-repeat #000;
     background-size: cover;
+    color:#fac564
 }
 .count-block_overlay{
     height: inherit;
@@ -13,10 +14,24 @@
     align-items: center;
     padding-top: 200px;
 }
+.count-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
 .count-list_item{
     height: 85px;
     width: 85px;
     border: 1px solid #fac564;
     margin-left: 4%;
     margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count-item_img{
+    height: 55px;
+    width: 55px;
 }
