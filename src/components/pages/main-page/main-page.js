@@ -9,6 +9,7 @@ import MenuBlock from '../reused-blocks/menu-block';
 import FotoBlock from '../reused-blocks/foto-block';
 import CountBlock from '../reused-blocks/count-block';
 import ContactBlock from '../reused-blocks/contact-block';
+import ShortMenu from '../reused-blocks/short-menu';
 
 
 const MainPage = ( ) =>{
@@ -46,6 +47,7 @@ const MainPage = ( ) =>{
         <MenuBlock/>
         <FotoBlock/>
         <CountBlock/>
+        <ShortMenu/>
         <ContactBlock/>
         </main>
     )
