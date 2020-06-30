@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './short-menu.css'
 import ShortHeader from './short-pages/short-header';
+import ShortDrink from './short-pages/short-drinks';
 
 const ShortMenu = ( ) =>{
     return(
@@ -11,7 +12,7 @@ const ShortMenu = ( ) =>{
             <div className="short-menu_links">
                 <Router>
                     <ShortHeader/>
-
+                        <Route path="/drinks" component={ShortDrink}/>
                 </Router>
             </div>
          

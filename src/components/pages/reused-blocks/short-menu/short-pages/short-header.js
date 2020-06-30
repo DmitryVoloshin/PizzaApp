@@ -8,10 +8,10 @@ const ShortHeader = () =>{
         <div>
             <ul className="short-header_nav">
                 <li className="short-header_link">
-                    <Link>Pizza</Link>
+                    <Link >Pizza</Link>
                 </li>
                 <li className="short-header_link">
-                    <Link>Drinks</Link>
+                    <Link to="/drinks">Drinks</Link>
                 </li>
                 <li className="short-header_link">
                     <Link>Burgers</Link>
