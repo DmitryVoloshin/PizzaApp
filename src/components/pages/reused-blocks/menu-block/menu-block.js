@@ -3,6 +3,7 @@ import React from 'react';
 import './menu-block.css'
 
 import menu from './../../../../img/time-plug/menu.png';
+import pricing from './../../../../img/time-plug/pricing.png'
 
 const MenuBlock = ( ) =>{
 
@@ -34,6 +35,7 @@ const MenuBlock = ( ) =>{
                 far from the countries Vokalia and Consonantia, 
                 there live the blind texts.
                 </p>
+                <img src={pricing} className="plug-for_time"/>
            </div>
         </div>
     )

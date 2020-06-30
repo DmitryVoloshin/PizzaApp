@@ -1,0 +1,1 @@
+import FotoBlock from './foto-block'
