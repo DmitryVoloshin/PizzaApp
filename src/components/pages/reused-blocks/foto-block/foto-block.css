@@ -3,8 +3,45 @@
     display: flex;
 
 }
-
+.foto-block_list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 .foto-list_item{
     width: 25%;
-    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto-list_item:nth-child(1){
+    background-image: url('./../../../../img/foto-block-images/gallery1.jpg');
+}
+.foto-list_item:nth-child(2){
+    background-image: url('./../../../../img/foto-block-images/gallery2.jpg');
+}
+.foto-list_item:nth-child(3){
+    background-image: url('./../../../../img/foto-block-images/gallery3.jpg');
+}
+.foto-list_item:nth-child(4){
+    background-image: url('./../../../../img/foto-block-images/gallery4.jpg');
+}
+.list-item_sqr{
+    width: 70px;
+    height: 70px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* visibility: hidden; */
+}
+.list-item_sqr:hover{
+    background-color: #fff;
+}
+.item-sqr_image{
+    width: 35px;
+    height: 35px;
 }
