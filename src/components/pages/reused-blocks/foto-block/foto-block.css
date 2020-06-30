@@ -36,10 +36,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 400ms;
+    transition-property: transform,background-color;
     /* visibility: hidden; */
 }
 .list-item_sqr:hover{
-    background-color: #fff;
+    background-color: #fac564;
+    transform: rotate(45deg);
 }
 .item-sqr_image{
     width: 35px;
