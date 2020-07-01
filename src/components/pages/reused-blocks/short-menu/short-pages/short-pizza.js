@@ -15,7 +15,7 @@ const ShortPizza = ( ) =>{
             <p className="short-menu_text">Far far away, behind the word mountains, 
             far from the countries Vokalia and Consonantia.
             </p>
-            <p className="short-menu_price"></p>
+            <p className="short-menu_price">$2.90</p>
             <button className="short-menu_tocart">Add to cart</button>
         </div>
         <div className="short-block_page">
@@ -24,7 +24,7 @@ const ShortPizza = ( ) =>{
             <p className="short-menu_text">Far far away, behind the word mountains, 
             far from the countries Vokalia and Consonantia.
             </p>
-            <p className="short-menu_price"></p>
+            <p className="short-menu_price">$2.90</p>
             <button className="short-menu_tocart">Add to cart</button>
         </div>
         <div className="short-block_page">
@@ -33,7 +33,7 @@ const ShortPizza = ( ) =>{
             <p className="short-menu_text">Far far away, behind the word mountains, 
             far from the countries Vokalia and Consonantia.
             </p>
-            <p className="short-menu_price"></p>
+            <p className="short-menu_price">$2.90</p>
             <button className="short-menu_tocart">Add to cart</button>
         </div>
         </div>

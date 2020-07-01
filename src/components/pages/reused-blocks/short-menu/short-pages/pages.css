@@ -24,3 +24,25 @@ div{
     padding-bottom: 35px;
     font-size: 25px;
 }
+.short-menu_text{
+    line-height: 20px;
+    color: gray;
+    padding-bottom: 25px;
+}
+.short-menu_price{
+    padding-bottom: 25px;
+    color: rgb(250, 197, 100);
+}
+.short-menu_tocart{
+    height: 35px;
+    width: 105px;
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+    border:  1px solid white;
+}
+.short-menu_tocart:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #fac564;
+    border: 1px solid #fac564;
+}
