@@ -4,7 +4,7 @@ import './pages.css'
 
 const ShortPasta = ( ) =>{
     return(
-        <div>Pasta</div>
+        <div className="short-block_page">Pasta</div>
     )
 }
 

@@ -1,11 +1,12 @@
 .short-header_nav{
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
-    margin-left: 160px;
+    padding-top: 50px;
+    margin-left: 60px;
+    color: #fac564;
 }
 .short-header_link{
-    border: 1px solid green;
+    border: 1px solid #fac564;
     height: 50px;
     width: 130px;
     margin-left: 15px;
@@ -13,5 +14,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    color: #fac564;
+}
+.short-link_item{
+    color: #fac564;
 }
