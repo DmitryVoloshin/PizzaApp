@@ -2,15 +2,15 @@ import React from 'react';
 
 import './pages.css';
 
-import pizza1 from './../../../../../img/short-menu/pizza1.jpg'
-import pizza2 from './../../../../../img/short-menu/pizza2.jpg'
-import pizza3 from './../../../../../img/short-menu/pizza3.jpg'
+import pasta1 from './../../../../../img/short-menu/pasta1.jpg'
+import pasta2 from './../../../../../img/short-menu/pasta2.jpg'
+import pasta3 from './../../../../../img/short-menu/pasta3.jpg'
 
 const ShortPasta = ( ) =>{
     return(
         <div className="short-block">
         <div className="short-block_page">
-            <img className="short-menu_image" src={pizza1}/>
+            <img className="short-menu_image" src={pasta1}/>
             <h2 className="short-menu_title">Italian Pizza</h2>
             <p className="short-menu_text">Far far away, behind the word mountains, 
             far from the countries Vokalia and Consonantia.
@@ -19,7 +19,7 @@ const ShortPasta = ( ) =>{
             <button className="short-menu_tocart">Add to cart</button>
         </div>
         <div className="short-block_page">
-            <img className="short-menu_image" src={pizza2}/>
+            <img className="short-menu_image" src={pasta2}/>
             <h2 className="short-menu_title">Italian Pizza</h2>
             <p className="short-menu_text">Far far away, behind the word mountains, 
             far from the countries Vokalia and Consonantia.
@@ -28,7 +28,7 @@ const ShortPasta = ( ) =>{
             <button className="short-menu_tocart">Add to cart</button>
         </div>
         <div className="short-block_page">
-            <img className="short-menu_image" src={pizza3}/>
+            <img className="short-menu_image" src={pasta3}/>
             <h2 className="short-menu_title">Italian Pizza</h2>
             <p className="short-menu_text">Far far away, behind the word mountains, 
             far from the countries Vokalia and Consonantia.
