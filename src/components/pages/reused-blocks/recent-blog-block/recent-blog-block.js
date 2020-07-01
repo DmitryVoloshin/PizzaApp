@@ -12,7 +12,17 @@ const RecentBlog = ( ) =>{
             </p>
             <ul className="recent-blog_list">
               <li className="recent-blog_item">
-                  <a><img/></a>
+                  <a className="recent-blog_image"><img/></a>
+                  <div className="">
+
+                  </div>
+                  <a className="blog-list_title">
+                    The Delicious Pizza
+                  </a>
+                  <p className="blog-list_text">
+                  A small river named Duden flows by their place 
+                  and supplies it with the necessary regelialia.
+                  </p>
               </li>  
             </ul>
         </div>
