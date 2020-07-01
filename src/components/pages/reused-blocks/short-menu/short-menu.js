@@ -15,8 +15,8 @@ const ShortMenu = ( ) =>{
             <div className="short-menu_links">
                 <Router>
                     <ShortHeader/>
-                        <Route path="/drinks" component={ShortDrink} exact/>
-                        <Route path="/pizza" component={ShortPizza}/>
+                        <Route path="/drinks" component={ShortDrink}/>
+                        <Route path="/" component={ShortPizza} exact/>
                         <Route path="/burgers" component={ShortBurger}/>
                         <Route path="/pasta" component={ShortPasta}/>
                 </Router>
