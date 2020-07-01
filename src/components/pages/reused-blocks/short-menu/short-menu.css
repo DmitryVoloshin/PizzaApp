@@ -7,8 +7,8 @@
 }
 .shortmenu-block{
     display: flex;
+    background: url('./../../../../img/paralax-bg.jpg');
 }
 .short-menu_links{
-    background-color: black;
     width: 62%;
 }
