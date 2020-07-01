@@ -7,7 +7,7 @@
 }
 .shortmenu-block{
     display: flex;
-    background: url('./../../../../img/paralax-bg.jpg');
+    /* background: url('./../../../../img/paralax-bg.jpg'); */
 }
 .short-menu_links{
     width: 62%;
