@@ -5,7 +5,7 @@
     margin-left: 60px;
     color: #fac564;
 }
-.short-header_link{
+.short-header_link {
     border: 1px solid #fac564;
     height: 50px;
     width: 130px;
@@ -14,8 +14,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fac564;
+}
+.short-header_link:hover{
+    background-color:#fac564 ;
 }
 .short-link_item{
     color: #fac564;
+}
+.short-link_item:hover{
+    color: black;
 }
