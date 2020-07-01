@@ -1,6 +1,26 @@
 div{
     color: white;
 }
+.short-block{
+    display: flex;
+}
 .short-block_page{
-    
+    text-align: center;
+    width: 325px;
+    padding-left: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.short-menu_image{
+    height: 220px;
+    width: 220px;
+    border-radius: 120px;
+}
+.short-menu_title{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-size: 25px;
 }
