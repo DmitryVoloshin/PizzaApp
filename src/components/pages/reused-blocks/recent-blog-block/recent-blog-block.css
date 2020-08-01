@@ -5,6 +5,9 @@
     flex-direction: column;
     align-items: center;
 }
+.recent-blog_item{
+    width: 350px;
+}
 .recent-blog_title{
     padding-top: 70px;
     font-size: 33px;
@@ -16,4 +19,40 @@
     width: 35%;
    line-height: 30px;
    padding-bottom: 40px;
+}
+.recent-blog_image{
+    height: 200px;
+    width: 200px;
+}
+.recent-blog_icon{
+    width: 15px;
+    height: 15px;
+}
+.recent-blog_meta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.blog-meta_text{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: gray;
+}
+.blog-list_title{
+    font-size: 25px;
+    color: white;
+}
+.blog-list_title:hover{
+    color: #fac564;
+    cursor: pointer;
+}
+.blog-list_text{
+    padding-top: 35px;
+    line-height: 20px ;
+    color: gray;
+}
+.recent-blog_list{
+    display: flex;
 }
